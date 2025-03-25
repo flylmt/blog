@@ -21,7 +21,6 @@ npm init vuepress-theme-hope@latest my-docsnpm init vuepress-
 
 3、设置pages路径为 ph-pages --> save
 
-
 # Git命令
 
 1、git add remote origin 链接
@@ -36,7 +35,7 @@ npm init vuepress-theme-hope@latest my-docsnpm init vuepress-
 
 创建新分支：
 
-git checkout -b   <branchname><branchname>
+git checkout -b   branchname
 
 强制覆盖远程分支：
 
