@@ -1,6 +1,6 @@
 ---
 icon: creative
-title: Java学习
+title: 知识学习
 ---
 ## Java
 

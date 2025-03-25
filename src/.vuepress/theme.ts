@@ -28,6 +28,8 @@ export default hopeTheme({
   '<a href="#" target="_blank">flylmt</a>',
 displayFooter: true,
 
+pageInfo: ["Author", "Category", "Tag", "Original", "Word", "ReadingTime"],
+
   // 博客相关
   blog: {
     intro: "/intro.html",
@@ -42,14 +44,14 @@ displayFooter: true,
   },
 
   // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/demo/encrypt.html": {
+  //       hint: "Password: 1234",
+  //       password: "1234",
+  //     },
+  //   },
+  // },
 
   // 多语言配置
   metaLocales: {
@@ -147,7 +149,11 @@ displayFooter: true,
     },
 
     icon: {
-      prefix: "fa6-solid:",
+      assets: [
+        "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
+        //"fontawesome",
+      ],
+      //prefix: "fa6-solid:",
     },
     
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释

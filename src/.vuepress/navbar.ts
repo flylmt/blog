@@ -1,11 +1,11 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  "/",
+  { text: "指南", icon: "java", link: "/home.md" },
   
   {
     text: "项目",
-    icon: "book",
+    icon: "github",
     link: "/project/",
   },
   {
